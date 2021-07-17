@@ -1,0 +1,106 @@
+.brand-logo {
+  width: 50px;
+  height: 50px;
+}
+
+#intro {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/garrhet-sampson-CmF_5GYc6c0-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  height: 420px;
+}
+
+.intro-find {
+  color: white;
+  padding: 70px 50px;
+  font-size: 4rem;
+}
+.intro-quotes {
+  color: lightgrey;
+  padding: 20px 50px;
+  font-size: 1.5rem;
+}
+
+#main {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  margin: 50px;
+  column-gap: 50px;
+  transition: 2s;
+}
+
+.change-your-mind {
+  color: #2F5D62;
+}
+
+.main-text {
+  text-align: justify;
+}
+
+.transform {
+  background-color: #A2DBFA;
+  border-radius: 5px;
+  height: 300px;
+  width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  box-shadow: 1px 1px 7px silver;
+}
+
+.transform-class {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.lightbulb {
+  color: #FB9300;
+}
+.quote {
+  /* margin: 0; */
+}
+
+.quote-image {
+  width: 250px;
+  height: 250px;
+  padding: 10px;
+}
+
+
+.quote-div {
+  position: relative;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.quote-write-up {
+  position: absolute;
+  left: 60px;
+  top: 80px;
+  text-align: center;
+}
+.quote-div:hover {
+  opacity: .7;
+}
+.aside {
+  /* margin: 20px; */
+}
+
+#footer {
+  background-color: #222831;
+  height: 400px;
+  margin: -8px;
+  padding: 50px;
+  color: lightgrey;
+}
+@media (max-width: 980px) {
+  #main {
+    display: grid;
+    grid-template-columns: 100%;
+    margin: 50px;
+  }
+  .aside {
+    display: none;
+  }
+}
